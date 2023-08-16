@@ -1,0 +1,36 @@
+
+   td {
+    border: 1px solid #d6ec09;
+    padding: 8px;
+    text-align: center;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(129, 124, 124);
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    font-family: 'Times New Roman', Times, serif;
+}
